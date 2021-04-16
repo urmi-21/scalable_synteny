@@ -1,0 +1,25 @@
+__default__:
+    partition: RM # partition you use
+    mail-user: user@domain.edu # your email for notifications
+    time: "8:00:00" # default time
+    nodes: 1
+    ntasks: 25
+
+extract_chromosomes:
+    partition: RM-small
+    time: "1:00:00"
+    nodes: 1
+    ntasks: 10
+
+perform_synteny:
+    partition: RM
+    time: "12:00:00"
+    nodes: 1
+    ntasks: 30
+
+merge_results:
+    partition: RM-shared
+    time: "1:00:00"
+    nodes: 1
+    ntasks: 10
+

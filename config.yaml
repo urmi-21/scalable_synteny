@@ -1,0 +1,17 @@
+# Specify the output directory
+outdir: "synteny_out"
+# Specify threads to use
+threads: 30
+
+# Specify path to query/focal genome
+query_genome: "GCA_000001405.15_GRCh38_no_alt_analysis_set.fna"
+
+# Specify path to target genome
+target_genome: "GCA_002880755.3_Clint_PTRv2_genomic.fna"
+
+# Specify file containing query chromosomes to use; if None then all chromosomes will be used
+#query_chromosomes: "query"
+query_chromosomes: 
+# Specify file containing taget chromosomes to use; if None then all chromosomes will be used
+target_chromosomes:  
+
